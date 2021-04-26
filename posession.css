@@ -93,10 +93,6 @@ body {
   text-align:center;
 }
 
-.shape1:hover{
-  fill:red;
-}
-
   .shape2{
     position:absolute;
     right:0;
