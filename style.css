@@ -1,0 +1,71 @@
+
+body {
+  font-family: 'Space Mono', monospace;
+margin: 0;
+background: #e4dfd9;
+}
+
+  h1 {
+    color: white;
+    font-size:6rem;
+    width: 80%;
+    padding:1rem;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    Justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  transition: transform .2s;
+  }
+
+  h1:hover{
+    transform: scale(1.2);
+  }
+
+  h2 {
+    color: white;
+    font-size:2rem;
+    width: 60%;
+    padding:1rem;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    Justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  }
+
+  hr {
+    border: 1px solid white;
+  }
+  
+  .interesting {
+    color: #bb8979;
+    font-size:2rem;
+
+  }
+
+  .interesting:hover {
+    color: #bb8979;
+    font-size:3rem;
+  }
+
+  .not {
+    color: #aebdc1; 
+  }
+
+  .not:hover {
+    color: #aebdc1;
+    font-size:3rem;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+
+
+
+
+
