@@ -33,6 +33,11 @@ body {
   margin-top: 5%;
   margin-left: 5%;
   z-index:3;
+  transition: transform .2s;
+  }
+
+  h1:hover{
+    transform: scale(1.1);
   }
 
   
