@@ -174,7 +174,7 @@ body {
 @media only screen and (max-width:48rem) {
 
   body{
-    background: black;
+    background:#d2c0af;
     flex-direction: column;
     justify-content: center;
   
@@ -226,7 +226,7 @@ body {
     h1 {
         font-size:3.7rem;
         text-align: center;
-        color:#ff5000;
+        color:white;
         max-width:100%;
     }
 

@@ -173,25 +173,68 @@ body {
 
 
 
-@media only screen and (max-width:48rem) {
+  @media only screen and (max-width:48rem) {
 
-  body{
-    background: black;
-    flex-direction: column;
-    justify-content: center;
-  
-  }
-
-    h1 {
-        font-size:3.7rem;
-        text-align: center;
-        color:#ff5000;
-        max-width:100%;
-    }
-
-    h2{
-      width: 90%;
-      max-width:100%;
-    }
+    body{
+      background:#d2c0af;
+      flex-direction: column;
+      justify-content: center;
     
-}
+    }
+  
+    .shape1 {
+      position: relative;
+    }
+  
+    .shape2 {
+      position: relative;
+    }
+  
+    .shape3 {
+      position: relative;
+    }
+  
+    .shape4 {
+      position: relative;
+    }
+  
+    .shape5 {
+      position: relative;
+    }
+  
+  
+    
+   .shape1 svg {
+     width: 100%;
+    }
+  
+    .shape2 svg {
+      width: 100%;
+     }
+  
+     .shape3 svg {
+      width: 100%;
+     }
+  
+     .shap4 svg {
+      width: 100%;
+     }
+     .shape5 svg {
+      width: 100%;
+     }
+  
+    
+  
+      h1 {
+          font-size:3.7rem;
+          text-align: center;
+          color:white;
+          max-width:100%;
+      }
+  
+      h2{
+        width: 90%;
+        max-width:100%;
+      }
+      
+  }

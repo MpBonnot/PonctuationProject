@@ -36,6 +36,25 @@ background: #e4dfd9;
   margin-top: 2%;
   }
 
+  h3 {
+    color: white;
+    font-size:2rem;
+    width: 60%;
+    border: solid white;
+    padding:0rem;
+    margin: 0 auto;
+    text-align:center;
+    max-width: 100%;
+    Justify-content: center;
+    align-items:center;
+    margin-top: 5%;
+    z-index: 3;
+    }
+
+    h3:hover{
+    font-size:3rem;
+    }
+
   hr {
     border: 1px solid white;
   }
@@ -64,6 +83,29 @@ background: #e4dfd9;
     text-decoration: none;
   }
 
+ 
+
+  @media only screen and (max-width:48rem) {
+
+    body{
+      flex-direction: column;
+      justify-content: center;
+    
+    }
+  
+      h1 {
+          font-size:3rem;
+          text-align: center;
+          
+          max-width:100%;
+      }
+  
+      h2{
+        width: 90%;
+        max-width:100%;
+      }
+      
+  }
 
 
 
