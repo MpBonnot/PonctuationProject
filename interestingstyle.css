@@ -93,8 +93,9 @@ body {
   text-align:center;
 }
 
-.shape1:hover{
-  fill:white;
+.shape1:hover svg path {
+  fill: white;
+  transition: all .25s;
 }
 
   .shape2{
@@ -107,6 +108,11 @@ body {
     text-align:center;
   }
 
+  .shape2:hover svg path {
+    fill: white;
+    transition: all .25s;
+  }
+
   .shape3{
     position:absolute;
     right:0;
@@ -114,6 +120,11 @@ body {
     margin-bottom:1%;
       z-index: -1;
       max-width:100%;
+  }
+
+  .shape3:hover svg path {
+    fill: white;
+    transition: all .25s;
   }
 
   .shape4{
@@ -125,6 +136,11 @@ body {
       max-width:100%;
   }
 
+  .shape4:hover svg path {
+    fill: white;
+    transition: all .25s;
+  }
+
   .shape5{
     position:absolute;
     right:0;
@@ -133,21 +149,14 @@ body {
       z-index: -1;
       max-width:100%;
   }
+
+  .shape5:hover svg path {
+    fill: white;
+    transition: all .25s;
+  }
     
 
  
-
-  /*.punctuation{
-    display: flex;
-      flex-direction:column;
-      justify-content: right;
-      justify-items: right;
-      z-index:2;
-      color: white;
-    font-size:7rem;
-  }*/
-
-
 
 
 @media only screen and (max-width:48rem) {

@@ -82,19 +82,27 @@ body {
     margin-bottom:1%;
     z-index: 1;
     max-width:100%;
-    justify-content: center;
-    align-items: center;
-    text-align:right;
+    text-align:center;
   }
   
+  .shape1:hover svg path {
+    fill: white;
+    transition: all .25s;
+  }
   
     .shape2{
       position:absolute;
       right:0;
       top:40%;
       margin-bottom:1%;
-      z-index: 1;
+      z-index: -1;
       max-width:100%;
+      text-align:center;
+    }
+  
+    .shape2:hover svg path {
+      fill: white;
+      transition: all .25s;
     }
   
     .shape3{
@@ -102,10 +110,80 @@ body {
       right:0;
       top:70%;
       margin-bottom:1%;
-        z-index: 1;
+        z-index: -1;
         max-width:100%;
     }
   
+    .shape3:hover svg path {
+      fill: white;
+      transition: all .25s;
+    }
+  
     
+@media only screen and (max-width:48rem) {
+
+  body{
+    background: black;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+
+  .shape1 {
+    position: relative;
+  }
+
+  .shape2 {
+    position: relative;
+  }
+
+  .shape3 {
+    position: relative;
+  }
+
+  .shape4 {
+    position: relative;
+  }
+
+  .shape5 {
+    position: relative;
+  }
+
+
+  
+ .shape1 svg {
+   width: 100%;
+  }
+
+  .shape2 svg {
+    width: 100%;
+   }
+
+   .shape3 svg {
+    width: 100%;
+   }
+
+   .shap4 svg {
+    width: 100%;
+   }
+   .shape5 svg {
+    width: 100%;
+   }
+
+  
+
+    h1 {
+        font-size:3.7rem;
+        text-align: center;
+        color:#ff5000;
+        max-width:100%;
+    }
+
+    h2{
+      width: 90%;
+      max-width:100%;
+    }
+    
+}
       
   

@@ -1,7 +1,7 @@
 body {
     font-family: 'Space Mono', monospace;
   margin: 0;
-  background: #bb8979;
+  background: #e4dfd9;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -84,51 +84,76 @@ body {
   }
 
   .shape1{
-  position:absolute;
-  right:0;
-  top:10%;
-  margin-bottom:1%;
-  z-index: 1;
-  max-width:100%;
-  text-align:center;
-}
-
-  .shape2{
     position:absolute;
     right:0;
-    top:40%;
+    top:10%;
     margin-bottom:1%;
-    z-index: -1;
+    z-index: 1;
     max-width:100%;
     text-align:center;
   }
-
-  .shape3{
-    position:absolute;
-    right:0;
-    top:70%;
-    margin-bottom:1%;
+  
+  .shape1:hover svg path {
+    fill: white;
+    transition: all .25s;
+  }
+  
+    .shape2{
+      position:absolute;
+      right:0;
+      top:40%;
+      margin-bottom:1%;
       z-index: -1;
       max-width:100%;
-  }
-
-  .shape4{
-    position:absolute;
-    right:0;
-    top:100%;
-    margin-bottom:1%;
-      z-index: -1;
-      max-width:100%;
-  }
-
-  .shape5{
-    position:absolute;
-    right:0;
-    top:130%;
-    margin-bottom:1%;
-      z-index: -1;
-      max-width:100%;
-  }
+      text-align:center;
+    }
+  
+    .shape2:hover svg path {
+      fill: white;
+      transition: all .25s;
+    }
+  
+    .shape3{
+      position:absolute;
+      right:0;
+      top:70%;
+      margin-bottom:1%;
+        z-index: -1;
+        max-width:100%;
+    }
+  
+    .shape3:hover svg path {
+      fill: white;
+      transition: all .25s;
+    }
+  
+    .shape4{
+      position:absolute;
+      right:0;
+      top:100%;
+      margin-bottom:1%;
+        z-index: -1;
+        max-width:100%;
+    }
+  
+    .shape4:hover svg path {
+      fill: white;
+      transition: all .25s;
+    }
+  
+    .shape5{
+      position:absolute;
+      right:0;
+      top:130%;
+      margin-bottom:1%;
+        z-index: -1;
+        max-width:100%;
+    }
+  
+    .shape5:hover svg path {
+      fill: white;
+      transition: all .25s;
+    }
     
 
  
